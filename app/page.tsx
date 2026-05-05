@@ -339,7 +339,7 @@ export default function LokacraftRedesign() {
                 className="flex items-center justify-center gap-3 bg-loka-brown text-white px-10 py-4 rounded-xl shadow-lg font-bold min-w-[280px]"
               >
                 <MessageCircle size={20} className="text-loka-gold" />
-                <span>WhatsApp: 0812-3456-7890</span>
+                <span>WhatsApp: +62 851-8540-5772</span>
               </motion.a>
             </div>
             
