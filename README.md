@@ -1,36 +1,64 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🏺 Lokacraft Landing Page
 
-## Getting Started
+**Lokacraft** adalah produk kriya fungsional berupa sarung galon yang mengangkat keindahan budaya lokal ke dalam kehidupan sehari-hari. Proyek ini merupakan *landing page* premium yang dirancang untuk memperkenalkan warisan budaya Indonesia melalui produk modern yang bermakna.
 
-First, run the development server:
+![Lokacraft Preview](https://github.com/jq-works/lokacraft-landingpage/raw/main/public/images/product.jpeg)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## ✨ Fitur Utama
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Premium Design Aesthetics**: Menggunakan palet warna warisan (Cream, Brown, Gold) dengan tekstur kertas klasik.
+- **Interactive Storytelling**: Animasi *scroll-reveal* menggunakan Framer Motion untuk menceritakan kisah Panji dan Wayang Beber.
+- **Dynamic Backgrounds**: Ornamen wayang dan awan yang bergerak secara halus untuk pengalaman visual yang imersif.
+- **Responsive Layout**: Desain yang dioptimalkan sepenuhnya untuk perangkat mobile maupun desktop.
+- **Custom Loading Screen**: Transisi mulus dari layar pemuatan minimalis hingga konten siap ditampilkan.
+- **Smooth Navigation**: Navigasi antar-bagian yang halus untuk kenyamanan pengguna.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🛠️ Teknologi yang Digunakan
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Framework**: [Next.js 14](https://nextjs.org/) (App Router)
+- **Styling**: [Tailwind CSS v4](https://tailwindcss.com/)
+- **Animations**: [Framer Motion](https://www.framer.com/motion/)
+- **Icons**: [Lucide React](https://lucide.dev/)
+- **Typography**: Inter (Google Fonts)
 
-## Learn More
+## 🚀 Memulai Proyek
 
-To learn more about Next.js, take a look at the following resources:
+### Prasyarat
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Pastikan Anda sudah menginstal:
+- [Node.js](https://nodejs.org/) (Versi 18 atau terbaru)
+- npm atau yarn
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Instalasi
 
-## Deploy on Vercel
+1. Clone repositori ini:
+   ```bash
+   git clone https://github.com/jq-works/lokacraft-landingpage.git
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+2. Masuk ke direktori proyek:
+   ```bash
+   cd lokacraft-landingpage
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+3. Instal dependensi:
+   ```bash
+   npm install
+   ```
+
+4. Jalankan server pengembangan:
+   ```bash
+   npm run dev
+   ```
+
+5. Buka [http://localhost:3000](http://localhost:3000) di browser Anda untuk melihat hasilnya.
+
+## 📁 Struktur Folder
+
+- `app/`: Berisi route utama dan layout (Next.js App Router).
+- `public/images/`: Aset visual seperti logo, ornamen wayang, awan, dan foto produk.
+- `app/globals.css`: Konfigurasi tema Tailwind CSS dan variabel warna kustom.
+
+---
+
+**Lokacraft** — *Melestarikan Budaya, Satu Langkah Setiap Hari.*

@@ -156,7 +156,7 @@ export default function LokacraftRedesign() {
           
           {/* Logo Heading Container */}
           <div className="relative flex justify-center items-center mt-4 md:mt-6 mb-8">
-            <h1 className="text-4xl sm:text-5xl md:text-9xl font-black text-loka-brown leading-none drop-shadow-lg tracking-tight relative z-10">
+            <h1 className="text-5xl sm:text-5xl md:text-9xl font-black text-loka-brown leading-none drop-shadow-lg tracking-tight relative z-10">
               LOKA<span className="text-loka-gold">CRAFT</span>
             </h1>
           </div>
