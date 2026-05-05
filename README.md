@@ -1,64 +1,66 @@
-# 🏺 Lokacraft Landing Page
+# 🏺 LOKACRAFT — Heritage in Every Detail
 
-**Lokacraft** adalah produk kriya fungsional berupa sarung galon yang mengangkat keindahan budaya lokal ke dalam kehidupan sehari-hari. Proyek ini merupakan *landing page* premium yang dirancang untuk memperkenalkan warisan budaya Indonesia melalui produk modern yang bermakna.
+> **Melestarikan Budaya, Satu Langkah Setiap Hari.**
 
-![Lokacraft Preview](https://github.com/jq-works/lokacraft-landingpage/raw/main/public/images/product.jpeg)
+**Lokacraft** adalah sebuah inisiasi kriya fungsional yang menjembatani keagungan warisan budaya lokal Indonesia dengan kebutuhan gaya hidup modern. Melalui produk sarung galon premium, kami menghidupkan kembali narasi visual **Wayang Beber Malangan** dan **Cerita Panji** ke dalam ruang-ruang keseharian Anda.
 
-## ✨ Fitur Utama
+---
 
-- **Premium Design Aesthetics**: Menggunakan palet warna warisan (Cream, Brown, Gold) dengan tekstur kertas klasik.
-- **Interactive Storytelling**: Animasi *scroll-reveal* menggunakan Framer Motion untuk menceritakan kisah Panji dan Wayang Beber.
-- **Dynamic Backgrounds**: Ornamen wayang dan awan yang bergerak secara halus untuk pengalaman visual yang imersif.
-- **Responsive Layout**: Desain yang dioptimalkan sepenuhnya untuk perangkat mobile maupun desktop.
-- **Custom Loading Screen**: Transisi mulus dari layar pemuatan minimalis hingga konten siap ditampilkan.
-- **Smooth Navigation**: Navigasi antar-bagian yang halus untuk kenyamanan pengguna.
+### 🎨 Filosofi Desain
 
-## 🛠️ Teknologi yang Digunakan
+Proyek ini dibangun dengan memadukan estetika tradisional dan teknologi web modern:
+- **Heritage Palette**: Penggunaan warna *Cream*, *Earth-Brown*, dan *Royal-Gold* yang melambangkan kehangatan serta kemewahan budaya.
+- **Narrative Motion**: Animasi yang dirancang untuk menceritakan kisah seiring dengan interaksi pengguna.
+- **Digital Craftsmanship**: Setiap baris kode disusun dengan ketelitian yang sama seperti setiap jahitan pada produk kami.
 
-- **Framework**: [Next.js 14](https://nextjs.org/) (App Router)
-- **Styling**: [Tailwind CSS v4](https://tailwindcss.com/)
-- **Animations**: [Framer Motion](https://www.framer.com/motion/)
-- **Icons**: [Lucide React](https://lucide.dev/)
-- **Typography**: Inter (Google Fonts)
+---
 
-## 🚀 Memulai Proyek
+### ✨ Fitur Utama
 
-### Prasyarat
+- 🏛️ **Hero Ornamentasi**: Visualisasi awan dan wayang yang bergerak dinamis.
+- 📜 **Interactive Storytelling**: Alur informasi yang mengalir dengan animasi *scroll-reveal*.
+- 📱 **Adaptive Experience**: Pengalaman visual yang konsisten dan elegan di berbagai perangkat.
+- 🌀 **Premium Loader**: Layar pemuatan minimalis untuk menjaga ekspektasi kualitas.
+- ✉️ **Direct Connection**: Integrasi kontak sosial yang memudahkan akses bagi para kolektor.
 
-Pastikan Anda sudah menginstal:
-- [Node.js](https://nodejs.org/) (Versi 18 atau terbaru)
-- npm atau yarn
+---
 
-### Instalasi
+### 🛠️ Tech Stack
 
-1. Clone repositori ini:
+| Komponen | Teknologi |
+| :--- | :--- |
+| **Framework** | Next.js 14 (App Router) |
+| **Styling** | Tailwind CSS v4 |
+| **Animations** | Framer Motion |
+| **Icons** | Lucide React |
+| **Typography** | Inter |
+
+---
+
+### 🚀 Instalasi Cepat
+
+1. **Persiapan**
    ```bash
    git clone https://github.com/jq-works/lokacraft-landingpage.git
-   ```
-
-2. Masuk ke direktori proyek:
-   ```bash
    cd lokacraft-landingpage
    ```
 
-3. Instal dependensi:
+2. **Pemasangan Dependensi**
    ```bash
    npm install
    ```
 
-4. Jalankan server pengembangan:
+3. **Menjalankan Server**
    ```bash
    npm run dev
    ```
 
-5. Buka [http://localhost:3000](http://localhost:3000) di browser Anda untuk melihat hasilnya.
+---
 
-## 📁 Struktur Folder
+### 🏛️ Tentang Konten Budaya
 
-- `app/`: Berisi route utama dan layout (Next.js App Router).
-- `public/images/`: Aset visual seperti logo, ornamen wayang, awan, dan foto produk.
-- `app/globals.css`: Konfigurasi tema Tailwind CSS dan variabel warna kustom.
+Konten dalam landing page ini berfokus pada **Wayang Beber Malangan**, salah satu bentuk wayang tertua di Indonesia yang menggunakan media lembaran kain/kertas bergambar. Kisah yang diangkat adalah **Cerita Panji**, sebuah khazanah sastra asli Jawa Timur yang telah diakui oleh UNESCO sebagai *Memory of the World*.
 
 ---
 
-**Lokacraft** — *Melestarikan Budaya, Satu Langkah Setiap Hari.*
+© 2026 **Lokacraft Indonesia**. All rights reserved.
